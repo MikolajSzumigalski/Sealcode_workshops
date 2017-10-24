@@ -1,27 +1,36 @@
-function Figura(nazwa){
-    this.nazwa = nazwa;
-}
-
-function Czworokat(typczworokata, dlugoscibokow){
-    this.typczworokata = typczworokata;
-    this.dlugoscibokow = dlugoscibokow;
-    this.podajpole(){
+class Figura{
+    constuctor(nazwa){
         
     }
 }
 
-function Prostokat(){
-    this.podajpole = function(){
+class Czworokat extends Figura{
+    constructor(nazwa. typczworokata, a,b,c,d)
+    {
+    		super(nazwa);
+        this.typczworokata = typczworokata;
+        this.dlugoscibokow = dlugoscibokow;
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        this.d = d;
+    }
+    
+    
+}
+
+class Prostokat extends Czworokat{
+    
+    podajpole(){
         
     }
-    this.podajobwod = function(){
+    
+    podajobwod(){
         
     }
 }
 
-
-
-x = new Protokat();
+var  = new Prostokat();
 console.log(x.nazwa);
 console.log(x.typ_czworokata);
 console.log(x.podajpole);
