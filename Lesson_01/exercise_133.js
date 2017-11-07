@@ -1,11 +1,11 @@
 class Figura{
     constuctor(nazwa){
-        
+        this.nazwa = nazwa;
     }
 }
 
 class Czworokat extends Figura{
-    constructor(nazwa. typczworokata, a,b,c,d)
+    constructor(nazwa, typczworokata, a,b,c,d)
     {
     		super(nazwa);
         this.typczworokata = typczworokata;
