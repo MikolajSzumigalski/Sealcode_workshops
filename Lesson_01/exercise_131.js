@@ -1,37 +1,25 @@
-class Figura{
-    constuctor(nazwa){
-        
-    }
+function Figura(nazwa){
+	this.nazwa = nazwa;
 }
 
-class Czworokat extends Figura{
-    constructor(nazwa. typczworokata, a,b,c,d)
-    {
-    		super(nazwa);
-        this.typczworokata = typczworokata;
-        this.dlugoscibokow = dlugoscibokow;
-        this.a = a;
-        this.b = b;
-        this.c = c;
-        this.d = d;
-    }
-    
-    
+function Czworokat(nazwa, typczworokata, x, y){
+Figura.call(this, nazwa);
+ this.typczworokata = typczworokata;
+ this.x = x;
+ this.y = y;
 }
 
-class Prostokat extends Czworokat{
-    
-    podajpole(){
-        
-    }
-    
-    podajobwod(){
-        
-    }
+function Prostokat(nazwa, typczworokata, x,y){
+	Czworokat.call(this, nazwa, x, y);
 }
 
-var  = new Prostokat();
-console.log(x.nazwa);
-console.log(x.typ_czworokata);
-console.log(x.podajpole);
-console.log(x.podajObwod);
+Prostokat.prototype.podajpole = function(){
+ return this.x * this.y;
+}
+Prostokat.prototype.podajobwod = function(){
+ return (this.x + this.y)*2;
+}
+
+var p = new Prostokat('prostokat', 'prostokat', 5, 8);
+console.log(p.podajpole());
+console.log(p.podajobwod());
