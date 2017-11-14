@@ -4,7 +4,7 @@ function Osoba(imie, nazwisko, rokUrodzenia, plec){
     this.rokUrodzenia = rokUrodzenia;
     this.plec = plec;
     
-    function podajWiek(){
+    podajWiek(){
         var d = new Date();
         return d.getFullYear() - this.rokUrodzenia;
     }
@@ -15,7 +15,7 @@ function Nauczyciel(imie, nazwisko, rokUrodzenia, plec, nauczanyPrzedmiot, rokRo
     this.nauczanyPrzedmiot = nauczanyPrzedmiot;
     this.rokRozpoczeciaPracy = rokRozpoczeciaPracy;
     
-    function podajIloscLatPracy(){
+    podajIloscLatPracy(){
         var d = new Date();
         return d.getFullYear() - this.rokRozpoczeciaPracy;
     }
