@@ -7,7 +7,7 @@ function funkcja($a) {
     console.log($a.children());
 };
 
-$a = $('.popular-recipes');
+let $a = $('.popular-recipes');
 
 funkcja($a);
 
