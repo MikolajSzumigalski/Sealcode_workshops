@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        div{
+            border-radius: 100px;
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="leftbtn">&#8656;</button><button id="rightbtn">&#8658;</button>
+    <div id="kolko"></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+        $('#leftbtn').on("click", function(){
+            $('#kolko').animate({left: '-=50px'});
+        });
+        
+        $('#rightbtn').on("click", function(){
+            $('#kolko').animate({left: '+=50px'});
+        });
+    </script>
+</body>
+
+</html>
