@@ -1,0 +1,39 @@
+{
+    "songs":[
+        {
+            "title": "Talk",
+            "performer": "Coldplay",
+            "genre":"indie rock",
+            "album":"XandY",
+            "year":"2005",
+        },
+         {
+            "title": "A rush of blood to the head",
+            "performer": "Coldplay",
+            "genre":"indie rock",
+            "album":"A rush of lood to the head",
+            "year":"2003",
+        },
+         {
+            "title": "White shadows",
+            "performer": "Coldplay",
+            "genre":"indie rock",
+            "album":"XandY",
+            "year":"2005",
+        },
+         {
+            "title": "Viva la Vida",
+            "performer": "Coldplay",
+            "genre":"indie rock",
+            "album":"Viva la Vida",
+            "year":"2009",
+        },
+         {
+            "title": "Yellow",
+            "performer": "Coldplay",
+            "genre":"indie rock",
+            "album":"Parachutes",
+            "year":"2001",
+        },
+    ]
+}

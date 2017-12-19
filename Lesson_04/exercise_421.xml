@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<songs>
+    <song>
+        <title>Talk</title>
+        <performer>Coldplay</performer>
+        <genre>indie rock</genre>
+        <album>XandY</album>
+        <year>2005</year>
+    </song>
+    <song>
+        <title>A rush of blood to the head</title>
+        <performer>Coldplay</performer>
+        <genre>indie rock</genre>
+        <album>A rush of lood to the head</album>
+        <year>2003</year>
+    </song>
+    <song>
+        <title>White shadows</title>
+        <performer>Coldplay</performer>
+        <genre>indie rock</genre>
+        <album>XandY</album>
+        <year>2005</year>
+    </song>
+    <song>
+        <title>Viva la Vida</title>
+        <performer>Coldplay</performer>
+        <genre>indie rock</genre>
+        <album>Viva la Vida</album>
+        <year>2009</year>
+    </song>
+    <song>
+        <title>Yellow</title>
+        <performer>Coldplay</performer>
+        <genre>indie rock</genre>
+        <album>Parachutes</album>
+        <year>2001</year>
+    </song>
+</songs>
