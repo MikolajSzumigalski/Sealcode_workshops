@@ -1,0 +1,39 @@
+{
+    "movies":[
+        {
+            "title": "Władca Pierścieni: Drużyna Pierścienia",
+            "genre": "fantasy",
+            "director": "Peter Jackson",
+            "year": "2000",
+            "description": "Był sobie hobbit i Gandalf kazał mu iść do Mordoru zanieść Pierścień."
+        },
+        {
+            "title": "Władca Pierścieni: Dwie Wieże",
+            "genre": "fantasy",
+            "director": "Peter Jackson",
+            "year": "2002",
+            "description": "Hobbit idzie dalej, ale ma przypały na każdym kroku i Golum mu przeszkadza."
+        },
+        {
+            "title": "Władca Pierścieni: Powrót króla",
+            "genre": "fantasy",
+            "director": "Peter Jackson",
+            "year": "2005",
+            "description": "Hobbit zanosi pierścień, juhu...!"
+        },
+        {
+            "title": "Poradnik pozytywnego myślenia",
+            "genre": "komediodramat",
+            "director": "David O. Russell",
+            "year": "2009",
+            "description": "Pat zakochał się w Tiffani. Byli pokręceni, ale zakochali się i byli szczęśliwi, i tańczyli sobie"  
+        },
+        {
+            "title": "Skazani na shawshank",
+            "genre": "komediodramat",
+            "director": "Frank Darabont",
+            "year": "2009",
+            "description": "Gostek trafił do więzienia i był niewienny, kolegował się z murzynem i potem wykiwał wszystkich (oprócz murzyna)"  
+        }
+    ]   
+}
