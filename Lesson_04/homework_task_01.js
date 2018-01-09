@@ -2,6 +2,7 @@ var xhr = new XMLHttpRequest();
 
 xhr.onload = function () {
     if (xhr.status === 200) {
+        console.log("dupa");
         responseObject = JSON.parse(xhr.responseText);
         var nowyFilm = '';
         for (let i = 0; i < responseObject.movies.length; i++) {
